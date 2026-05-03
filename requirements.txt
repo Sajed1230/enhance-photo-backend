@@ -1,14 +1,14 @@
 flask
 flask-cors
 gunicorn
-gfpgan
-basicsr
 facexlib
+gfpgan
 opencv-python-headless
 torch
 torchvision
-numpy
+numpy<2.0.0
 tqdm
 PyYAML
 scipy
 pillow
+git+https://github.com/XPixelGroup/BasicSR.git@master
