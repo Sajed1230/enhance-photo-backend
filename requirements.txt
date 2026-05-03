@@ -1,14 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 flask
 flask-cors
 gunicorn
-facexlib
-gfpgan
+torch==2.2.1+cpu
+torchvision==0.17.1+cpu
+numpy==1.26.4
 opencv-python-headless
-torch
-torchvision
-numpy<2.0.0
 tqdm
 PyYAML
 scipy
 pillow
+facexlib
+gfpgan
 git+https://github.com/XPixelGroup/BasicSR.git@master
