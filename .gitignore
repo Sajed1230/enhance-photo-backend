@@ -1,0 +1,15 @@
+# Ignore Python environments
+venv/
+env/
+__pycache__/
+
+# Ignore AI weights/models (very important)
+*.pth
+*.onnx
+*.bin
+weights/
+inputs/
+outputs/
+
+# Ignore system files
+.DS_Store
